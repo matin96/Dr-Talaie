@@ -1,0 +1,473 @@
+@font-face {
+    font-family: normal-shabnam;
+    src: url("Font/Shabnam.woff");
+}
+
+@font-face {
+    font-family: bold;
+    src: url("Font/Shabnam-Bold.woff");
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Shabnam, Nazanin, serif;
+    font-size: 10px;
+    direction: rtl;
+}
+
+.container {
+    background-color: #E9F0F6;
+    width: 100%;
+    height: auto;
+    padding: 10px 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /*background: url("pattern4.jpg");*/
+    /*background-size: c;*/
+}
+
+.profile-container{
+    border-radius: 20px;
+    background-color: white;
+    padding: 0 0 40px 0;
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 0px 10px 30px rgba(55,43,125,.1);
+    margin-bottom: 30px ;
+}
+
+.rect{
+    width: 100%;
+    height: 16px;
+    background-color: #FF6A4E;
+    border-radius: 20px 20px 0 0 ;
+    margin-bottom: 50px;
+}
+
+.avatar_container{
+    width: 60%;
+    /*background-color: orange;*/
+}
+
+.avatar_image{
+    border-radius: 16px;
+    width: 100%;
+    height: 100%;
+    box-shadow: 0px 10px 30px rgba(0,0,0,.5);
+}
+
+.name-container{
+    margin: 20px 0;
+}
+
+.name{
+    font-size: 2.6rem;
+    direction: rtl;
+    text-align: center;
+    font-family: bold;
+    text-shadow: 1px 1px 8px rgba(0,0,0,.5);
+}
+
+.job-container{
+    background-color: #FF6A4E;
+    width: auto;
+    height: 50px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.job{
+    font-size: 1.4rem;
+    direction: rtl;
+    text-align: center;
+    font-family: normal-shabnam;
+    margin: 20px;
+}
+
+.profile-desc-container{
+    width: 100%;
+    height: 150px;
+    margin: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.inner-profile-desc-container{
+    /*border-color: black;*/
+    /*border-style: solid;*/
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 40%;
+    height: 150px;
+    margin: 10px;
+    box-shadow: 0px 10px 30px rgba(0,0,0,.2);
+    padding: 10px;
+}
+
+.inner-profile-desc-container1 {
+    background-color: #DFFFFA;
+}
+
+.profile-desc{
+    display: flex;
+    /*justify-content: center;*/
+    /*align-items: start;*/
+    padding: 0 0px 0 0;
+    margin-right: 6%;
+}
+
+.profile-desc-icon{
+    font-size: 4rem;
+    color: #555555;
+    margin-top: 0px;
+}
+
+.profile-desc-content{
+    font-size: 1.4rem;
+    margin: 10px 14px;
+    alignment: center;
+    text-align: center
+}
+
+.inner-profile-desc-container2{
+    background-color: #FFFCD7;
+}
+.inner-profile-desc-container3{
+    background-color: #FFDACF;
+}
+.inner-profile-desc-container4{
+    background-color: #AABACE;
+}
+
+.inner-profile-desc-container5{
+    background-color: #D4EDB4;
+}
+
+.inner-profile-desc-container6{
+    background-color: #dddddd;
+}
+
+.ring{
+    width: 40%;
+}
+
+.content-container{
+    border-radius: 20px;
+    background-color: white;
+    padding: 20px;
+    /*width: 100%;*/
+    height: auto;
+    box-shadow: 0px 10px 30px rgba(55,43,125,.1);
+}
+
+.darbare{
+    box-shadow: 0px 10px 30px rgba(0,0,0,.5);
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.right-rect{
+    background-color: #ACCCC7;
+    border-radius: 0 20px 20px 0;
+    width: 2%;
+    height: auto;
+}
+
+.left-rect{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.aboutme-container{
+    background-color: #DFFFFA;
+    width: 90%;
+    height: 50px;
+    border-radius: 16px;
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.about{
+    font-size: 2rem;
+    font-family: bold;
+    direction: rtl;
+    text-align: center;
+    margin: 12px;
+}
+
+.aboutme-content{
+    font-size: 1.6rem;
+    padding: 20px 30px 20px 30px;
+    text-align: justify;
+}
+
+.video{
+    background-color: #DDDDDD;
+    width: 60%;
+    height: 60px;
+    border-radius: 40px;
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color: black;
+}
+
+.marakez{
+    box-shadow: 0px 10px 30px rgba(0,0,0,.5);
+    width: 100%;
+    height: auto;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.marakez-container{
+    background-color: #aabace;
+    width: 90%;
+    height: 50px;
+    border-radius: 16px;
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.video:hover{
+    background-color: #CCCCCC;
+}
+
+.markaz1{
+    padding: 20px 3%;
+    display: flex;
+    flex-direction: column;
+}
+
+.marakez-titles{
+    text-align: right;
+    font-size: 2rem;
+    font-family: bold;
+    text-decoration: none;
+    margin-bottom: 10px;
+    background-color: #EEEEEE;
+    border-radius: 10px;
+    color: #333333;
+    width: 95%;
+    margin-right: 20px;
+    padding: 4px 16px;
+}
+
+.Roshana-process{
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.roshana-phone{
+    font-size: 1.2rem;
+    margin: 4px 20px;
+    text-decoration: none;
+    color: #555555;
+}
+
+.savabegh{
+    box-shadow: 0px 10px 30px rgba(0,0,0,.5);
+    width: 100%;
+    height: auto;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.savabegh-container{
+    background-color: #DFFFFA;
+    width: 90%;
+    height: 50px;
+    border-radius: 16px;
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.savabrgh_loc{
+    display: flex;
+    align-items: start;
+    margin: 0px 50px 0px 0px;
+}
+
+.savabegh-title{
+    font-size: 1.6rem;
+    margin: 20px 20px;
+    text-decoration: none;
+    color: #555555;
+    font-family: bold;
+}
+
+.savabegh-content{
+    display: flex;
+    align-items: center;
+    font-size: 1.2rem;
+    margin: 10px 10px;
+    text-decoration: none;
+    color: #555555;
+}
+
+.talifat{
+    box-shadow: 0px 10px 30px rgba(0,0,0,.5);
+    width: 100%;
+    height: auto;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+.talifat-container{
+    background-color: #aabace;
+    width: 90%;
+    height: 50px;
+    border-radius: 16px;
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+@media (min-width: 700px) {
+    .inner-profile-desc-container{
+        height: 200px;
+    }
+    .profile-desc-container{
+        margin: 40px;
+    }
+}
+@media (min-width: 1024px){
+    *{
+        direction: rtl;
+    }
+    .container{
+        padding: 24px;
+        flex-direction: row;
+        align-items: initial;
+    }
+
+    .profile-container{
+        width: 30%;
+        height: auto;
+        margin: 20px;
+    }
+
+    .rect{
+        height: 20px;
+    }
+
+    .name-container{
+        margin-bottom: 10px;
+    }
+    .job-container{
+        width: auto;
+        height: 1.5%;
+        margin-bottom: 20px;
+    }
+    .job{
+        font-size: 1.8rem;
+    }
+    .avatar_container{
+        width: 60%;
+    }
+    .profile-desc-container{
+        width: 100%;
+        height: auto;
+        margin: 0 20px 0 20px;
+        flex-direction: column;
+    }
+    .inner-profile-desc-container{
+        width: 70%;
+        height: auto;
+        margin: 20px;
+        padding: 40px 0;
+    }
+    .inner-profile-desc-container:hover{
+        width: 74%;
+        /*height: 90%*/
+    }
+    .profile-desc-icon{
+        margin-top: 1%;
+    }
+    .aboutme-content{
+        line-height: 30px;
+    }
+
+    .video{
+        width: 30%;
+    }
+    .profile-desc-content {
+        font-size: 1.8rem;
+    }
+    .content-container{
+        width: 60%;
+        height: 100%;
+        margin: 20px;
+    }
+
+    .Roshana-process{
+        width: 70%;
+        margin-right: 10%;
+    }
+    .roshana-phone{
+        font-size: 1.4rem;
+    }
+    .savabrgh_loc{
+        margin: 0px 90px 0px 0px;
+    }
+
+    .savabegh-title{
+        /*margin: 20px 0;*/
+    }
+
+    .savabegh-content{
+        font-size: 1.4rem;
+        /*margin: 0 10px;*/
+    }
+
+}
+
+@media (min-width: 2048px) {
+    .name{
+        font-size: 4rem;
+    }
+    .job{
+        font-size: 3rem;
+    }
+    .profile-desc-content{
+        font-size: 3rem;
+    }
+    .about{
+        font-size: 3rem;
+    }
+    .aboutme-content{
+        font-size: 2.4rem;
+    }
+}

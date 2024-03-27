@@ -1,5 +1,5 @@
 @font-face {
-    font-family: normal-shabnam;
+    font-family: normal;
     src: url("Font/Shabnam.woff");
 }
 
@@ -12,7 +12,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: Shabnam, Nazanin, serif;
+    font-family: normal;
     font-size: 10px;
     direction: rtl;
 }
@@ -90,7 +90,7 @@
     font-size: 1.4rem;
     direction: rtl;
     text-align: center;
-    font-family: normal-shabnam;
+    font-family: normal;
     margin: 20px;
 }
 
@@ -138,6 +138,7 @@
 }
 
 .profile-desc-content{
+    font-family: normal;
     font-size: 1.4rem;
     margin: 10px 14px;
     alignment: center;

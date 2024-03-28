@@ -133,8 +133,8 @@
 
 .profile-desc-icon{
     font-size: 4rem;
-    color: #555555;
-    margin-top: 0px;
+    color: #FF6A4E;
+    /*height: auto;*/
 }
 
 .profile-desc-content{
@@ -199,15 +199,23 @@
     align-items: center;
 }
 
-.aboutme-container{
-    background-color: #DFFFFA;
+.main-titles {
     width: 90%;
     height: 50px;
     border-radius: 16px;
-    margin: 20px;
+    margin: 30px;
     display: flex;
     justify-content: center;
     align-items: center;
+}
+.dark-gradient-blue{
+    background: rgb(59,70,111);
+    background: radial-gradient(circle, rgba(170,186,206,1) 0%, rgba(110,118,158,1) 35%, rgba(59,70,111,1) 100%);
+}
+
+.light-gradient-blue{
+    background: rgb(137,182,175);
+    background: radial-gradient(circle, rgba(223,255,250,1)  0%, rgba(191,209,208,1) 35%, rgba(137,182,175,1) 100%);
 }
 
 .about{
@@ -220,13 +228,13 @@
 
 .aboutme-content{
     font-size: 1.6rem;
-    padding: 20px 30px 20px 30px;
+    padding: 0px 50px 20px 50px;
     text-align: justify;
 }
 
 .video{
     background-color: #DDDDDD;
-    width: 60%;
+    width: 40%;
     height: 60px;
     border-radius: 40px;
     margin: 20px;
@@ -235,6 +243,14 @@
     align-items: center;
     text-decoration: none;
     color: black;
+}
+
+.video-title{
+    font-size: 1.4rem;
+    font-family: bold;
+    direction: rtl;
+    text-align: center;
+    margin: 12px;
 }
 
 .marakez{
@@ -247,16 +263,6 @@
     margin-top: 50px;
 }
 
-.marakez-container{
-    background-color: #aabace;
-    width: 90%;
-    height: 50px;
-    border-radius: 16px;
-    margin: 10px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
 .video:hover{
     background-color: #CCCCCC;
 }
@@ -303,36 +309,35 @@
     margin-top: 50px;
 }
 
-.savabegh-container{
-    background-color: #DFFFFA;
-    width: 90%;
-    height: 50px;
-    border-radius: 16px;
-    margin: 20px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
 .savabrgh_loc{
     display: flex;
     align-items: start;
-    margin: 0px 50px 0px 0px;
+    margin: 10px 50px 10px 0px;
+}
+
+.savabegh-desc{
+    display: flex;
+    /*justify-content: center;*/
+    /*align-items: start;*/
+    padding: 0px 0px 0 0;
+    margin-right: 6%;
 }
 
 .savabegh-title{
     font-size: 1.6rem;
-    margin: 20px 20px;
+    margin: 0px 20px 0 20px;
     text-decoration: none;
     color: #555555;
     font-family: bold;
+    text-align: justify;
+    align-content: center;
 }
 
 .savabegh-content{
     display: flex;
     align-items: center;
     font-size: 1.2rem;
-    margin: 10px 10px;
+    margin: 5px 10px 5px 10px;
     text-decoration: none;
     color: #555555;
 }
@@ -346,15 +351,60 @@
     justify-content: center;
     margin-top: 50px;
 }
-.talifat-container{
-    background-color: #aabace;
-    width: 90%;
-    height: 50px;
-    border-radius: 16px;
-    margin: 20px;
+.talifat-desc{
     display: flex;
-    justify-content: center;
-    align-items: center;
+    /*justify-content: center;*/
+    /*align-items: start;*/
+    padding: 0px 0px 0 0;
+    margin: 16px 6% 16px 0;
+}
+
+.talifat-title{
+    font-size: 1.6rem;
+    margin: 0px 20px 0 20px;
+    text-decoration: none;
+    color: #555555;
+    font-family: bold;
+    align-content: center;
+}
+
+.doreha-desc{
+    display: flex;
+    /*justify-content: center;*/
+    /*align-items: start;*/
+    padding: 0px 0px 0 0;
+    margin: 10px 6% 10px 0;
+}
+
+
+#more{
+    display: none;
+}
+
+#dots-container{
+    display: flex;
+    /*margin: 50px;*/
+    padding-right: 6%;
+    width: 100%;
+}
+
+.dots{
+    font-size: 2rem;
+    font-family: bold;
+    margin-right: 20px;
+    margin-top: 5px;
+}
+
+#myBtn{
+    width: 30%;
+    background-color: #FF6A4E;
+    border-radius: 20px;
+    border-style: none;
+    height: 40px;
+    margin: 30px 0 50px 0;
+    cursor: pointer;
+    font-size: 1.4rem;
+    box-shadow: 0px 10px 30px rgba(0,0,0,.5);
 }
 @media (min-width: 700px) {
     .inner-profile-desc-container{
@@ -362,6 +412,10 @@
     }
     .profile-desc-container{
         margin: 40px;
+    }
+    #myBtn{
+        width: 20%;
+        height: 50px;
     }
 }
 @media (min-width: 1024px){
@@ -422,7 +476,8 @@
     }
 
     .video{
-        width: 30%;
+        width: 20%;
+        height: 50px;
     }
     .profile-desc-content {
         font-size: 1.8rem;
@@ -452,6 +507,8 @@
         font-size: 1.4rem;
         /*margin: 0 10px;*/
     }
+
+
 
 }
 

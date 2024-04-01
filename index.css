@@ -17,6 +17,28 @@
     direction: rtl;
 }
 
+.Home-Container{
+    width: 100%;
+    align-items: center;
+    justify-items: right;
+    /*overflow: hidden;*/
+    background-color: #D8E0E5;
+    position: absolute;
+    z-index: 999;
+}
+/*Header*/
+.Header-Background{
+    width: 100%;
+    background-color: #D8E0E5;
+    /*z-index: 999;*/
+    /*overflow: hidden;*/
+}
+
+.navbar-container{
+    display: none;
+}
+
+
 .container {
     background-color: #E9F0F6;
     width: 100%;
@@ -120,7 +142,7 @@
 }
 
 .inner-profile-desc-container1 {
-    background-color: #DFFFFA;
+    background-color: #E6EDF4;
 }
 
 .profile-desc{
@@ -146,21 +168,21 @@
 }
 
 .inner-profile-desc-container2{
-    background-color: #FFFCD7;
+    background-color: #E6EDF4;
 }
 .inner-profile-desc-container3{
-    background-color: #FFDACF;
+    background-color: #E6EDF4;
 }
 .inner-profile-desc-container4{
-    background-color: #AABACE;
+    background-color: #E6EDF4;
 }
 
 .inner-profile-desc-container5{
-    background-color: #D4EDB4;
+    background-color: #E6EDF4;
 }
 
 .inner-profile-desc-container6{
-    background-color: #dddddd;
+    background-color: #E6EDF4;
 }
 
 .ring{
@@ -228,7 +250,7 @@
 
 .aboutme-content{
     font-size: 1.6rem;
-    padding: 0px 50px 20px 50px;
+    padding: 0px 30px 20px 30px;
     text-align: justify;
 }
 
@@ -407,11 +429,42 @@
     box-shadow: 0px 10px 30px rgba(0,0,0,.5);
 }
 @media (min-width: 700px) {
+
+    /*.navbar-container{*/
+    /*    display: inline;*/
+    /*    overflow: hidden;*/
+    /*    margin: 20px 16px 200px 0;*/
+    /*    background-color: #7B66EF;*/
+    /*}*/
+
+    .navbar-btn{
+        color: black;
+        font-size: 1.4rem;
+        text-decoration: none;
+    }
+
+    /*.navbar-btn:hover{*/
+    /*    color: #9374E4;*/
+    /*}*/
+
+    /*.navbar-btn:active{*/
+    /*    color: #9374E4;*/
+    /*}*/
+
     .inner-profile-desc-container{
         height: 200px;
     }
     .profile-desc-container{
         margin: 40px;
+    }
+    .avatar_container{
+        width: 40%;
+        /*background-color: orange;*/
+    }
+
+    .aboutme-content{
+        line-height: 30px;
+        padding: 0px 50px 20px 50px;
     }
     #myBtn{
         width: 20%;
@@ -421,6 +474,22 @@
 @media (min-width: 1024px){
     *{
         direction: rtl;
+    }
+    .navbar-btn {
+        float: right;
+        color: black;
+        font-size: 1.4rem;
+        padding: 10px;
+        text-decoration: none;
+        margin: 20px 10px 10px 10px;
+    }
+
+    .navbar-btn:hover {
+        color: #9374E4;
+    }
+
+    .navbar-btn:active {
+        color: #9374E4;
     }
     .container{
         padding: 24px;
@@ -471,9 +540,7 @@
     .profile-desc-icon{
         margin-top: 1%;
     }
-    .aboutme-content{
-        line-height: 30px;
-    }
+
 
     .video{
         width: 20%;

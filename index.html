@@ -5,347 +5,369 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>دکتر هایده طلایی</title>
     <link rel="stylesheet" href="index.css"/>
+    <link rel="stylesheet" href="header.css"/>
+
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
     <script src="index.js"></script>
 </head>
 
 <body>
-<div class="container">
-    <div class="profile-container">
-        <div class="rect">
 
-        </div>
-        <div class="avatar_container">
-            <img class="avatar_image" src="images/profile_image.jpg">
-        </div>
-        <div class="name-container">
-            <h1 class="name">دکتر هایده طلایی</h1>
-        </div>
-        <div class="job-container">
-            <h2 class="job"> مشاور و روان درمانگر</h2>
-        </div>
+<section class="top-nav">
+    <input id="menu-toggle" type="checkbox" />
+    <label class='menu-button-container' for="menu-toggle">
+        <div class='menu-button'></div>
+    </label>
+    <ul class="menu">
+        <li><a href="#about-me">درباره من</a></li>
+        <li><a href="#centers">مراکز مشاوره</a></li>
+        <li><a href="#history">سوابق اجرایی</a></li>
+        <li><a href="#books">تألیفات و پژوهش ها</a></li>
+        <li><a href="#certificates">دوره ها و گواهی نامه ها</a></li>
+    </ul>
+</section>
 
-        <div class="profile-desc-container">
-            <div class="inner-profile-desc-container inner-profile-desc-container1">
-                <img src="images/diamond-ring.png" class="ring">
-                <div>
-                    <h4 class="profile-desc-content">مشاوره پیش از ازدواج</h4>
+<div>
+
+    <div class="container">
+
+        <div class="profile-container">
+            <div class="rect">
+
+            </div>
+            <div class="avatar_container">
+                <img class="avatar_image" src="images/profile_image.jpg">
+            </div>
+            <div class="name-container">
+                <h1 class="name">دکتر هایده طلایی</h1>
+            </div>
+            <div class="job-container">
+                <h2 class="job"> مشاور و روان درمانگر</h2>
+            </div>
+
+            <div class="profile-desc-container">
+                <div class="inner-profile-desc-container inner-profile-desc-container1">
+                    <img src="images/diamond-ring.png" class="ring">
+                    <div>
+                        <h4 class="profile-desc-content">مشاوره پیش از ازدواج</h4>
+                    </div>
+                </div>
+                <div class="inner-profile-desc-container inner-profile-desc-container2">
+                    <img src="images/personal-growth.png" class="ring">
+                    <div>
+                        <h4 class="profile-desc-content">مشاوره توسعه فردی</h4>
+                    </div>
+                </div>
+
+            </div>
+
+
+            <div class="profile-desc-container">
+                <div class="inner-profile-desc-container inner-profile-desc-container3">
+                    <img src="images/couple.png" class="ring">
+                    <div>
+                        <h4 class="profile-desc-content">زوج درمانی</h4>
+                    </div>
+                </div>
+                <div class="inner-profile-desc-container inner-profile-desc-container4">
+                    <img src="images/family.png" class="ring">
+                    <div>
+                        <h4 class="profile-desc-content">مشاوره خانواده</h4>
+                    </div>
                 </div>
             </div>
-            <div class="inner-profile-desc-container inner-profile-desc-container2">
-                <img src="images/personal-growth.png" class="ring">
-                <div>
-                    <h4 class="profile-desc-content">مشاوره توسعه فردی</h4>
+
+
+            <div class="profile-desc-container">
+                <div class="inner-profile-desc-container inner-profile-desc-container5">
+                    <img src="images/communication.png" class="ring">
+                    <div>
+                        <h4 class="profile-desc-content"> مشاوره روابط مؤثر</h4>
+                    </div>
+                </div>
+                <div class="inner-profile-desc-container inner-profile-desc-container6">
+                    <img src="images/headache.png" class="ring">
+                    <div>
+                        <h4 class="profile-desc-content" style="font-size: 1.3rem"> مشاوره اختلالات اضطراب، افسردگی، وسواس</h4>
+                    </div>
                 </div>
             </div>
 
         </div>
 
-
-        <div class="profile-desc-container">
-            <div class="inner-profile-desc-container inner-profile-desc-container3">
-                <img src="images/couple.png" class="ring">
-                <div>
-                    <h4 class="profile-desc-content">زوج درمانی</h4>
+        <div class="content-container">
+            <div class="darbare" id="about-me">
+                <div class="right-rect">
+                </div>
+                <div class="left-rect">
+                    <div class="main-titles light-gradient-blue">
+                        <i class="material-symbols-outlined profile-desc-icon" style="margin-top: 0%;">account_circle</i>
+                        <p class="about">درباره من</p>
+                    </div>
+                    <p class="aboutme-content">
+                        دکتر هایده طلایی هستم. ۱۵ سال است که در حیطه روان درمانی فردی، مشاوره پیش از ازدواج و زوج درمانی در کنار تدریس در دانشگاه، مشغول به کارم.
+                        <br>
+                        طی این سال ها خودشناسی را بهترین راه برای ازدواج بهتر، تحصیل و شغل بهتر و در یک کلمه زندگی بهتر یافته ام.
+                        <br>
+                        زمانی که افراد با خود آشنا نبوده و واقف بر علاقه مندی ها و ویژگی های خود نیستند، انتخاب هایی که انجام می دهند
+                        تنها بر اساس هیجان های موجود بوده و در نیمه راه تازه متوجه می شوند که این همسر، این رشته و یا این شغل را دوست ندارند
+                        و حال در یک برزخ گیر می کنند که همچنان با بی رغبتی ادامه دهند یا همه اراده خود را جزم کرده و با جرات مندی در مسیر جدیدی که مطابق با معیارهای آنهاست قرار گیرند؟
+                        <br>
+                        اینجاست که حضور یک متخصص برای ادامه مسیرشان لازم می باشد.
+                    </p>
+                    <a class="video" href="https://www.aparat.com/v/2c1Aw">
+                        <i class="material-symbols-outlined profile-desc-icon">Play_Circle</i>
+                        <p class="video-title">مشاهده ویدئو</p>
+                    </a>
                 </div>
             </div>
-            <div class="inner-profile-desc-container inner-profile-desc-container4">
-                <img src="images/family.png" class="ring">
-                <div>
-                    <h4 class="profile-desc-content">مشاوره خانواده</h4>
+
+            <div class="marakez" id="centers">
+                <div class="right-rect" style="background-color: #0d216b">
+                </div>
+                <div class="left-rect">
+                    <div class="main-titles dark-gradient-blue">
+                        <i class="material-symbols-outlined profile-desc-icon" style="margin-top: 0%;">diversity_1</i>
+                        <p class="about">مراکز مشاوره</p>
+                    </div>
+                    <div class="markaz1">
+                        <a href="https://www.roshanacenter.com/" class="marakez-titles">مرکز مشاوره روشنا</a>
+                        <img src="images/Roshana-process.jpg" class="Roshana-process" >
+                        <div class="profile-desc">
+                            <i class="material-symbols-outlined profile-desc-icon" style="margin-top: 0px">Language</i>
+                            <a href="https://www.roshanacenter.com/" class="roshana-phone">آدرس وب سایت: www.roshanacenter.com</a>
+                        </div>
+                        <div class="profile-desc">
+                            <i class="material-symbols-outlined profile-desc-icon" style="margin-top: 0px">Call</i>
+                            <p class="roshana-phone">تلفن تماس: 22592636-021</p>
+                        </div>
+                        <div class="profile-desc">
+                            <i class="material-symbols-outlined profile-desc-icon" style="margin-top: 0px">Location_on</i>
+                            <p class="roshana-phone">آدرس: تهران، خیابان شهید کلاهدوز (دولت)، خیابان عین آبادی، کوچه بنفش، بنفش یکم، پلاک 5</p>
+                        </div>
+                    </div>
+                    <div class="markaz1">
+                        <a href="https://psylife.ir/" class="marakez-titles">مرکز مشاوره آنلاین سایلایف</a>
+                        <img src="images/Psylife-prcess.jpg" class="Roshana-process" >
+                        <div class="profile-desc">
+                            <i class="material-symbols-outlined profile-desc-icon" style="margin-top: 0px">Language</i>
+                            <a href="https://psylife.ir/" class="roshana-phone">آدرس وب سایت: www.psylife.ir</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="savabegh" id="history" >
+                <div class="right-rect">
+                </div>
+                <div class="left-rect">
+                    <div class="main-titles light-gradient-blue">
+                        <i class="material-symbols-outlined profile-desc-icon">manage_search</i>
+                        <p class="about">سوابق اجرایی</p>
+                    </div>
+                    <div>
+                        <div class="savabegh-desc">
+                            <i class="material-symbols-outlined profile-desc-icon">Check_box</i>
+                            <p class="savabegh-title">روان درمانگر فردی، مشاوره پیشاز ازدواج، زوج درمانگر، مشاوره روابط، مشاور خانواده</p>
+                        </div>
+                        <div class="savabrgh_loc">
+                            <i class="material-symbols-outlined profile-desc-icon">Check</i>
+                            <p class="savabegh-content">کلینیک روان شناسی روشنا</p>
+                        </div>
+                        <div class="savabrgh_loc">
+                            <i class="material-symbols-outlined profile-desc-icon">Check</i>
+                            <p class="savabegh-content">کلینیک روان شناسی خانه مهر نیک روان</p>
+                        </div>
+                        <div class="savabrgh_loc">
+                            <i class="material-symbols-outlined profile-desc-icon">Check</i>
+                            <p class="savabegh-content">کلینیک روان شناسی بیان (مصیر صلح)</p>
+                        </div>
+                        <div class="savabrgh_loc">
+                            <i class="material-symbols-outlined profile-desc-icon">Check</i>
+                            <p class="savabegh-content">مرکز مشاوره آنلاین سان لایف</p>
+                        </div>
+                        <div class="savabegh-desc">
+                            <i class="material-symbols-outlined profile-desc-icon">Check_box</i>
+                            <p class="savabegh-title">مدرس دانشگاه های علامه طباطبایی و آزاد اسلامی واحد تهران مرکز</p>
+                        </div>
+                        <div class="savabrgh_loc">
+                            <i class="material-symbols-outlined profile-desc-icon">Check</i>
+                            <p class="savabegh-content">از سال 1390</p>
+                        </div>
+                        <div class="savabegh-desc">
+                            <i class="material-symbols-outlined profile-desc-icon">Check_box</i>
+                            <p class="savabegh-title">برگزار کننده کارگاه های ازدواج، انتخاب همسر، خانواده پایدار، مهارت های ارتباطی، مهارت های سبک زندگی اسلامی- ایرانی، شکست عاطفی، خودآگاهی، کنترل خشم، پیشگیری از اعتیاد، تربیت جنسی کودک و نوجوان
+                            </p>
+                        </div>
+                        <div class="savabrgh_loc">
+                            <i class="material-symbols-outlined profile-desc-icon">Check</i>
+                            <p class="savabegh-content">در دانشگاه ها و مدارس</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="talifat" id="books">
+                <div class="right-rect"  style="background-color: #0d216b">
+                </div>
+                <div class="left-rect">
+                    <div class="main-titles dark-gradient-blue">
+                        <i class="material-symbols-outlined profile-desc-icon" >auto_stories</i>
+                        <p class="about">تألیفات و پژوهش ها</p>
+                    </div>
+                    <div style="width: 100%">
+                        <div class="talifat-desc">
+                            <i class="material-symbols-outlined profile-desc-icon">Check_box</i>
+                            <p class="talifat-title">کتاب تربیت جنسی کودک. والدین هشیار کودکان شاد</p>
+                        </div>
+                        <hr style="margin: 0 50px;">
+                        <div class="talifat-desc">
+                            <i class="material-symbols-outlined profile-desc-icon">Check_box</i>
+                            <p class="talifat-title">چگونگی تأثیر هنر بر سلامت جسم و روان دانش آموزان</p>
+                        </div>
+                        <hr style="margin: 0 50px;">
+                        <div class="talifat-desc">
+                            <i class="material-symbols-outlined profile-desc-icon">Check_box</i>
+                            <p class="talifat-title">تأثیر رفتار متقابل والدین بر آینده فرزندان</p>
+                        </div>
+                        <hr style="margin: 0 50px;">
+                        <div class="talifat-desc">
+                            <i class="material-symbols-outlined profile-desc-icon">Check_box</i>
+                            <p class="talifat-title">اثربخشی آموزش هنر خوشنویسی بر کاهش اضطراب دانش آموزان دختر دبیرستان» در سومین كنگره هنردرمانی ایران</p>
+                        </div>
+                        <hr style="margin: 0 50px;">
+                        <div class="talifat-desc">
+                            <i class="material-symbols-outlined profile-desc-icon">Check_box</i>
+                            <p class="talifat-title">آموزه های قرآنی جهت مدیریت روابط و نقش های زوجین</p>
+                        </div>
+                        <hr style="margin: 0 50px;">
+                        <div class="talifat-desc">
+                            <i class="material-symbols-outlined profile-desc-icon">Check_box</i>
+                            <p class="talifat-title">خواستگاری مبتنی بر آموزه های اسلامی بر اساس تحلیل کیفی قران کریم</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="talifat" id="certificates"> <! -- doreha -->
+                <div class="right-rect">
+                </div>
+                <div class="left-rect">
+                    <div class="main-titles light-gradient-blue">
+                        <i class="material-symbols-outlined profile-desc-icon">award_star</i>
+                        <p class="about">دوره ها و گواهی نامه ها</p>
+                    </div>
+                    <div style="width: 100%">
+                        <div class="savabegh-desc">
+                            <i class="material-symbols-outlined profile-desc-icon">Check_box</i>
+                            <p class="savabegh-title">عضویت در سازمان نظام روان‌شناسی و مشاوره جمهوری اسلامی ایران</p>
+                        </div>
+                        <div class="savabrgh_loc">
+                            <i class="material-symbols-outlined profile-desc-icon">Check</i>
+                            <p class="savabegh-content">توسط سازمان نظام روان‌شناسی و مشاوره جمهوری اسلامی ایران</p>
+                        </div>
+
+                        <div class="savabegh-desc">
+                            <i class="material-symbols-outlined profile-desc-icon">Check_box</i>
+                            <p class="savabegh-title">عضویت در انجمن مشاوره ایران</p>
+                        </div>
+                        <div class="savabrgh_loc">
+                            <i class="material-symbols-outlined profile-desc-icon">Check</i>
+                            <p class="savabegh-content">توسط انجمن مشاوره ایران</p>
+                        </div>
+                        <div class="savabegh-desc">
+                            <i class="material-symbols-outlined profile-desc-icon">Check_box</i>
+                            <p class="savabegh-title">عضویت در مؤسسه تئوری انتخاب William Glasser</p>
+                        </div>
+                        <div class="savabrgh_loc">
+                            <i class="material-symbols-outlined profile-desc-icon">Check</i>
+                            <p class="savabegh-content">توسط مؤسسه تئوری انتخاب ویلیام گلاسر آمریکا</p>
+                        </div>
+                    </div>
+
+                    <div id="dots-container">
+                        <i class="material-symbols-outlined profile-desc-icon">Check_box</i>
+                        <p class="dots">...</p>
+                    </div>
+
+                    <div id="more" style="width: 100%">
+                        <div class="savabegh-desc">
+                            <i class="material-symbols-outlined profile-desc-icon">Check_box</i>
+                            <p class="savabegh-title">عضویت در انجمن مشاوره ازدواج و خانواده</p>
+                        </div>
+                        <div class="savabrgh_loc">
+                            <i class="material-symbols-outlined profile-desc-icon">Check</i>
+                            <p class="savabegh-content">توسط انجمن مشاوره ازدواج و خانواده</p>
+                        </div>
+
+                        <div class="savabegh-desc">
+                            <i class="material-symbols-outlined profile-desc-icon">Check_box</i>
+                            <p class="savabegh-title">دوره اول و دوم کارگاه «واقعیت درمانی»، دکتر علی صاحبی</p>
+                        </div>
+                        <div class="savabrgh_loc">
+                            <i class="material-symbols-outlined profile-desc-icon">Check</i>
+                            <p class="savabegh-content">توسط مؤسسه تئوری انتخاب</p>
+                        </div>
+                        <div class="savabegh-desc">
+                            <i class="material-symbols-outlined profile-desc-icon">Check_box</i>
+                            <p class="savabegh-title">مداخلات روان شناسی مثبت گرا دکتر فرید براتی</p>
+                        </div>
+                        <div class="savabrgh_loc">
+                            <i class="material-symbols-outlined profile-desc-icon">Check</i>
+                            <p class="savabegh-content">توسط مرکز مشاوره و بهداشت روان دانشگاه علامه طباطبایی</p>
+                        </div>
+                        <div class="savabegh-desc">
+                            <i class="material-symbols-outlined profile-desc-icon">Check_box</i>
+                            <p class="savabegh-title">زوج درمانی به روش شناختی رفتاری دکتر جلال یونسی</p>
+                        </div>
+                        <div class="savabrgh_loc">
+                            <i class="material-symbols-outlined profile-desc-icon">Check</i>
+                            <p class="savabegh-content">توسط مرکز مشاوره روزبه</p>
+                        </div>
+                        <div class="savabegh-desc">
+                            <i class="material-symbols-outlined profile-desc-icon">Check_box</i>
+                            <p class="savabegh-title">گشتالت درمانی در کاهش اضطراب دکتر حبیب اکبری</p>
+                        </div>
+                        <div class="savabrgh_loc">
+                            <i class="material-symbols-outlined profile-desc-icon">Check</i>
+                            <p class="savabegh-content">توسط مرکز مشاوره و بهداشت روان دانشگاه علامه طباطبایی</p>
+                        </div>
+                        <div class="savabegh-desc">
+                            <i class="material-symbols-outlined profile-desc-icon">Check_box</i>
+                            <p class="savabegh-title">کارگاه سوپرویژن طرحواره‌درمانی، دکتر فغان پور</p>
+                        </div>
+                        <div class="savabrgh_loc">
+                            <i class="material-symbols-outlined profile-desc-icon">Check</i>
+                            <p class="savabegh-content">توسط درمانکده طرحواره ایران</p>
+                        </div>
+                        <div class="savabegh-desc">
+                            <i class="material-symbols-outlined profile-desc-icon">Check_box</i>
+                            <p class="savabegh-title">کارگاه طرحواره های مداخله گر در روابط زوجین</p>
+                        </div>
+                        <div class="savabrgh_loc">
+                            <i class="material-symbols-outlined profile-desc-icon">Check</i>
+                            <p class="savabegh-content">توسط دکتر حمید پور</p>
+                        </div>
+                        <div class="savabegh-desc">
+                            <i class="material-symbols-outlined profile-desc-icon">Check_box</i>
+                            <p class="savabegh-title">کارگاه «هیپنوتیزم»، دکتر محمد بهشتیان</p>
+                        </div>
+                        <div class="savabrgh_loc">
+                            <i class="material-symbols-outlined profile-desc-icon">Check</i>
+                            <p class="savabegh-content">توسط مركز آموزش معاونت فرهنگی و اجتماعی دانشگاه علامه طباطبایی</p>
+                        </div>
+                    </div>
+                    <button onclick="myFunction()" id="myBtn">بیشتر</button>
+
                 </div>
             </div>
         </div>
 
 
-        <div class="profile-desc-container">
-            <div class="inner-profile-desc-container inner-profile-desc-container5">
-                <img src="images/communication.png" class="ring">
-                <div>
-                    <h4 class="profile-desc-content"> مشاوره روابط مؤثر</h4>
-                </div>
-            </div>
-            <div class="inner-profile-desc-container inner-profile-desc-container6">
-                <img src="images/headache.png" class="ring">
-                <div>
-                    <h4 class="profile-desc-content" style="font-size: 1.3rem"> مشاوره اختلالات اضطراب، افسردگی، وسواس</h4>
-                </div>
-            </div>
-        </div>
+
 
     </div>
-
-    <div class="content-container">
-        <div class="darbare">
-            <div class="right-rect">
-            </div>
-            <div class="left-rect">
-                <div class="main-titles light-gradient-blue">
-                    <i class="material-symbols-outlined profile-desc-icon" style="margin-top: 0%;">account_circle</i>
-                    <p class="about">درباره من</p>
-                </div>
-                <p class="aboutme-content">
-                    دکتر هایده طلایی هستم. ۱۵ سال است که در حیطه روان درمانی فردی، مشاوره پیش از ازدواج و زوج درمانی در کنار تدریس در دانشگاه، مشغول به کارم.
-                    <br>
-                    طی این سال ها خودشناسی را بهترین راه برای ازدواج بهتر، تحصیل و شغل بهتر و در یک کلمه زندگی بهتر یافته ام.
-                    <br>
-                    زمانی که افراد با خود آشنا نبوده و واقف بر علاقه مندی ها و ویژگی های خود نیستند، انتخاب هایی که انجام می دهند
-                    تنها بر اساس هیجان های موجود بوده و در نیمه راه تازه متوجه می شوند که این همسر، این رشته و یا این شغل را دوست ندارند
-                    و حال در یک برزخ گیر می کنند که همچنان با بی رغبتی ادامه دهند یا همه اراده خود را جزم کرده و با جرات مندی در مسیر جدیدی که مطابق با معیارهای آنهاست قرار گیرند؟
-                    <br>
-                    اینجاست که حضور یک متخصص برای ادامه مسیرشان لازم می باشد.
-                </p>
-                <a class="video" href="https://www.aparat.com/v/2c1Aw">
-                    <i class="material-symbols-outlined profile-desc-icon">Play_Circle</i>
-                    <p class="video-title">مشاهده ویدئو</p>
-                </a>
-            </div>
-        </div>
-
-        <div class="marakez">
-            <div class="right-rect" style="background-color: #0d216b">
-            </div>
-            <div class="left-rect">
-                <div class="main-titles dark-gradient-blue">
-                    <i class="material-symbols-outlined profile-desc-icon" style="margin-top: 0%;">diversity_1</i>
-                    <p class="about">مراکز مشاوره</p>
-                </div>
-                <div class="markaz1">
-                    <a href="https://www.roshanacenter.com/" class="marakez-titles">مرکز مشاوره روشنا</a>
-                    <img src="images/Roshana-process.jpg" class="Roshana-process" >
-                    <div class="profile-desc">
-                        <i class="material-symbols-outlined profile-desc-icon" style="margin-top: 0px">Language</i>
-                        <a href="https://www.roshanacenter.com/" class="roshana-phone">آدرس وب سایت: www.roshanacenter.com</a>
-                    </div>
-                    <div class="profile-desc">
-                        <i class="material-symbols-outlined profile-desc-icon" style="margin-top: 0px">Call</i>
-                        <p class="roshana-phone">تلفن تماس: 22592636-021</p>
-                    </div>
-                    <div class="profile-desc">
-                        <i class="material-symbols-outlined profile-desc-icon" style="margin-top: 0px">Location_on</i>
-                        <p class="roshana-phone">آدرس: تهران، خیابان شهید کلاهدوز (دولت)، خیابان عین آبادی، کوچه بنفش، بنفش یکم، پلاک 5</p>
-                    </div>
-                </div>
-                <div class="markaz1">
-                    <a href="https://psylife.ir/" class="marakez-titles">مرکز مشاوره آنلاین سایلایف</a>
-                    <img src="images/Psylife-prcess.jpg" class="Roshana-process" >
-                    <div class="profile-desc">
-                        <i class="material-symbols-outlined profile-desc-icon" style="margin-top: 0px">Language</i>
-                        <a href="https://psylife.ir/" class="roshana-phone">آدرس وب سایت: www.psylife.ir</a>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <div class="savabegh" >
-            <div class="right-rect">
-            </div>
-            <div class="left-rect">
-                <div class="main-titles light-gradient-blue">
-                    <i class="material-symbols-outlined profile-desc-icon">manage_search</i>
-                    <p class="about">سوابق اجرایی</p>
-                </div>
-                <div>
-                    <div class="savabegh-desc">
-                        <i class="material-symbols-outlined profile-desc-icon">Check_box</i>
-                        <p class="savabegh-title">روان درمانگر فردی، مشاوره پیشاز ازدواج، زوج درمانگر، مشاوره روابط، مشاور خانواده</p>
-                    </div>
-                    <div class="savabrgh_loc">
-                        <i class="material-symbols-outlined profile-desc-icon">Check</i>
-                        <p class="savabegh-content">کلینیک روان شناسی روشنا</p>
-                    </div>
-                    <div class="savabrgh_loc">
-                        <i class="material-symbols-outlined profile-desc-icon">Check</i>
-                        <p class="savabegh-content">کلینیک روان شناسی خانه مهر نیک روان</p>
-                    </div>
-                    <div class="savabrgh_loc">
-                        <i class="material-symbols-outlined profile-desc-icon">Check</i>
-                        <p class="savabegh-content">کلینیک روان شناسی بیان (مصیر صلح)</p>
-                    </div>
-                    <div class="savabrgh_loc">
-                        <i class="material-symbols-outlined profile-desc-icon">Check</i>
-                        <p class="savabegh-content">مرکز مشاوره آنلاین سان لایف</p>
-                    </div>
-                    <div class="savabegh-desc">
-                        <i class="material-symbols-outlined profile-desc-icon">Check_box</i>
-                        <p class="savabegh-title">مدرس دانشگاه های علامه طباطبایی و آزاد اسلامی واحد تهران مرکز</p>
-                    </div>
-                    <div class="savabrgh_loc">
-                        <i class="material-symbols-outlined profile-desc-icon">Check</i>
-                        <p class="savabegh-content">از سال 1390</p>
-                    </div>
-                    <div class="savabegh-desc">
-                        <i class="material-symbols-outlined profile-desc-icon">Check_box</i>
-                        <p class="savabegh-title">برگزار کننده کارگاه های ازدواج، انتخاب همسر، خانواده پایدار، مهارت های ارتباطی، مهارت های سبک زندگی اسلامی- ایرانی، شکست عاطفی، خودآگاهی، کنترل خشم، پیشگیری از اعتیاد، تربیت جنسی کودک و نوجوان
-                        </p>
-                    </div>
-                    <div class="savabrgh_loc">
-                        <i class="material-symbols-outlined profile-desc-icon">Check</i>
-                        <p class="savabegh-content">در دانشگاه ها و مدارس</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <div class="talifat">
-            <div class="right-rect"  style="background-color: #0d216b">
-            </div>
-            <div class="left-rect">
-                <div class="main-titles dark-gradient-blue">
-                    <i class="material-symbols-outlined profile-desc-icon" >auto_stories</i>
-                    <p class="about">تألیفات و پژوهش ها</p>
-                </div>
-                <div style="width: 100%">
-                    <div class="talifat-desc">
-                        <i class="material-symbols-outlined profile-desc-icon">Check_box</i>
-                        <p class="talifat-title">کتاب تربیت جنسی کودک. والدین هشیار کودکان شاد</p>
-                    </div>
-                    <hr style="margin: 0 50px;">
-                    <div class="talifat-desc">
-                        <i class="material-symbols-outlined profile-desc-icon">Check_box</i>
-                        <p class="talifat-title">چگونگی تأثیر هنر بر سلامت جسم و روان دانش آموزان</p>
-                    </div>
-                    <hr style="margin: 0 50px;">
-                    <div class="talifat-desc">
-                        <i class="material-symbols-outlined profile-desc-icon">Check_box</i>
-                        <p class="talifat-title">تأثیر رفتار متقابل والدین بر آینده فرزندان</p>
-                    </div>
-                    <hr style="margin: 0 50px;">
-                    <div class="talifat-desc">
-                        <i class="material-symbols-outlined profile-desc-icon">Check_box</i>
-                        <p class="talifat-title">اثربخشی آموزش هنر خوشنویسی بر کاهش اضطراب دانش آموزان دختر دبیرستان» در سومین كنگره هنردرمانی ایران</p>
-                    </div>
-                    <hr style="margin: 0 50px;">
-                    <div class="talifat-desc">
-                        <i class="material-symbols-outlined profile-desc-icon">Check_box</i>
-                        <p class="talifat-title">آموزه های قرآنی جهت مدیریت روابط و نقش های زوجین</p>
-                    </div>
-                    <hr style="margin: 0 50px;">
-                    <div class="talifat-desc">
-                        <i class="material-symbols-outlined profile-desc-icon">Check_box</i>
-                        <p class="talifat-title">خواستگاری مبتنی بر آموزه های اسلامی بر اساس تحلیل کیفی قران کریم</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="talifat"> <! -- doreha -->
-            <div class="right-rect">
-            </div>
-            <div class="left-rect">
-                <div class="main-titles light-gradient-blue">
-                    <i class="material-symbols-outlined profile-desc-icon">award_star</i>
-                    <p class="about">دوره ها و گواهی نامه ها</p>
-                </div>
-                <div style="width: 100%">
-                    <div class="savabegh-desc">
-                        <i class="material-symbols-outlined profile-desc-icon">Check_box</i>
-                        <p class="savabegh-title">عضویت در سازمان نظام روان‌شناسی و مشاوره جمهوری اسلامی ایران</p>
-                    </div>
-                    <div class="savabrgh_loc">
-                        <i class="material-symbols-outlined profile-desc-icon">Check</i>
-                        <p class="savabegh-content">توسط سازمان نظام روان‌شناسی و مشاوره جمهوری اسلامی ایران</p>
-                    </div>
-
-                    <div class="savabegh-desc">
-                        <i class="material-symbols-outlined profile-desc-icon">Check_box</i>
-                        <p class="savabegh-title">عضویت در انجمن مشاوره ایران</p>
-                    </div>
-                    <div class="savabrgh_loc">
-                        <i class="material-symbols-outlined profile-desc-icon">Check</i>
-                        <p class="savabegh-content">توسط انجمن مشاوره ایران</p>
-                    </div>
-                    <div class="savabegh-desc">
-                        <i class="material-symbols-outlined profile-desc-icon">Check_box</i>
-                        <p class="savabegh-title">عضویت در مؤسسه تئوری انتخاب William Glasser</p>
-                    </div>
-                    <div class="savabrgh_loc">
-                        <i class="material-symbols-outlined profile-desc-icon">Check</i>
-                        <p class="savabegh-content">توسط مؤسسه تئوری انتخاب ویلیام گلاسر آمریکا</p>
-                    </div>
-                </div>
-
-                <div id="dots-container">
-                    <i class="material-symbols-outlined profile-desc-icon">Check_box</i>
-                    <p class="dots">...</p>
-                </div>
-
-                <div id="more" style="width: 100%">
-                    <div class="savabegh-desc">
-                        <i class="material-symbols-outlined profile-desc-icon">Check_box</i>
-                        <p class="savabegh-title">عضویت در انجمن مشاوره ازدواج و خانواده</p>
-                    </div>
-                    <div class="savabrgh_loc">
-                        <i class="material-symbols-outlined profile-desc-icon">Check</i>
-                        <p class="savabegh-content">توسط انجمن مشاوره ازدواج و خانواده</p>
-                    </div>
-
-                    <div class="savabegh-desc">
-                        <i class="material-symbols-outlined profile-desc-icon">Check_box</i>
-                        <p class="savabegh-title">دوره اول و دوم کارگاه «واقعیت درمانی»، دکتر علی صاحبی</p>
-                    </div>
-                    <div class="savabrgh_loc">
-                        <i class="material-symbols-outlined profile-desc-icon">Check</i>
-                        <p class="savabegh-content">توسط مؤسسه تئوری انتخاب</p>
-                    </div>
-                    <div class="savabegh-desc">
-                        <i class="material-symbols-outlined profile-desc-icon">Check_box</i>
-                        <p class="savabegh-title">مداخلات روان شناسی مثبت گرا دکتر فرید براتی</p>
-                    </div>
-                    <div class="savabrgh_loc">
-                        <i class="material-symbols-outlined profile-desc-icon">Check</i>
-                        <p class="savabegh-content">توسط مرکز مشاوره و بهداشت روان دانشگاه علامه طباطبایی</p>
-                    </div>
-                    <div class="savabegh-desc">
-                        <i class="material-symbols-outlined profile-desc-icon">Check_box</i>
-                        <p class="savabegh-title">زوج درمانی به روش شناختی رفتاری دکتر جلال یونسی</p>
-                    </div>
-                    <div class="savabrgh_loc">
-                        <i class="material-symbols-outlined profile-desc-icon">Check</i>
-                        <p class="savabegh-content">توسط مرکز مشاوره روزبه</p>
-                    </div>
-                    <div class="savabegh-desc">
-                        <i class="material-symbols-outlined profile-desc-icon">Check_box</i>
-                        <p class="savabegh-title">گشتالت درمانی در کاهش اضطراب دکتر حبیب اکبری</p>
-                    </div>
-                    <div class="savabrgh_loc">
-                        <i class="material-symbols-outlined profile-desc-icon">Check</i>
-                        <p class="savabegh-content">توسط مرکز مشاوره و بهداشت روان دانشگاه علامه طباطبایی</p>
-                    </div>
-                    <div class="savabegh-desc">
-                        <i class="material-symbols-outlined profile-desc-icon">Check_box</i>
-                        <p class="savabegh-title">کارگاه سوپرویژن طرحواره‌درمانی، دکتر فغان پور</p>
-                    </div>
-                    <div class="savabrgh_loc">
-                        <i class="material-symbols-outlined profile-desc-icon">Check</i>
-                        <p class="savabegh-content">توسط درمانکده طرحواره ایران</p>
-                    </div>
-                    <div class="savabegh-desc">
-                        <i class="material-symbols-outlined profile-desc-icon">Check_box</i>
-                        <p class="savabegh-title">کارگاه طرحواره های مداخله گر در روابط زوجین</p>
-                    </div>
-                    <div class="savabrgh_loc">
-                        <i class="material-symbols-outlined profile-desc-icon">Check</i>
-                        <p class="savabegh-content">توسط دکتر حمید پور</p>
-                    </div>
-                    <div class="savabegh-desc">
-                        <i class="material-symbols-outlined profile-desc-icon">Check_box</i>
-                        <p class="savabegh-title">کارگاه «هیپنوتیزم»، دکتر محمد بهشتیان</p>
-                    </div>
-                    <div class="savabrgh_loc">
-                        <i class="material-symbols-outlined profile-desc-icon">Check</i>
-                        <p class="savabegh-content">توسط مركز آموزش معاونت فرهنگی و اجتماعی دانشگاه علامه طباطبایی</p>
-                    </div>
-                </div>
-                <button onclick="myFunction()" id="myBtn">بیشتر</button>
-
-            </div>
-        </div>
-    </div>
-
-
-
-
 </div>
+
 
 </body>
 </html>

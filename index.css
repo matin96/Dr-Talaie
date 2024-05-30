@@ -26,18 +26,6 @@
     position: absolute;
     z-index: 999;
 }
-/*Header*/
-.Header-Background{
-    width: 100%;
-    background-color: #D8E0E5;
-    /*z-index: 999;*/
-    /*overflow: hidden;*/
-}
-
-.navbar-container{
-    display: none;
-}
-
 
 .container {
     background-color: #E9F0F6;
@@ -48,8 +36,6 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    /*background: url("pattern4.jpg");*/
-    /*background-size: c;*/
 }
 
 .profile-container{
@@ -62,7 +48,8 @@
     flex-direction: column;
     align-items: center;
     box-shadow: 0px 10px 30px rgba(55,43,125,.1);
-    margin-bottom: 30px ;
+    margin-bottom: 30px;
+    margin-top: 20px;
 }
 
 .rect{
@@ -75,7 +62,6 @@
 
 .avatar_container{
     width: 60%;
-    /*background-color: orange;*/
 }
 
 .avatar_image{
@@ -127,8 +113,6 @@
 }
 
 .inner-profile-desc-container{
-    /*border-color: black;*/
-    /*border-style: solid;*/
     border-radius: 20px;
     display: flex;
     flex-direction: column;
@@ -139,16 +123,11 @@
     margin: 10px;
     box-shadow: 0px 10px 30px rgba(0,0,0,.2);
     padding: 10px;
-}
-
-.inner-profile-desc-container1 {
     background-color: #E6EDF4;
 }
 
 .profile-desc{
     display: flex;
-    /*justify-content: center;*/
-    /*align-items: start;*/
     padding: 0 0px 0 0;
     margin-right: 6%;
 }
@@ -156,7 +135,6 @@
 .profile-desc-icon{
     font-size: 4rem;
     color: #FF6A4E;
-    /*height: auto;*/
 }
 
 .profile-desc-content{
@@ -167,24 +145,6 @@
     text-align: center
 }
 
-.inner-profile-desc-container2{
-    background-color: #E6EDF4;
-}
-.inner-profile-desc-container3{
-    background-color: #E6EDF4;
-}
-.inner-profile-desc-container4{
-    background-color: #E6EDF4;
-}
-
-.inner-profile-desc-container5{
-    background-color: #E6EDF4;
-}
-
-.inner-profile-desc-container6{
-    background-color: #E6EDF4;
-}
-
 .ring{
     width: 40%;
 }
@@ -193,7 +153,6 @@
     border-radius: 20px;
     background-color: white;
     padding: 20px;
-    /*width: 100%;*/
     height: auto;
     box-shadow: 0px 10px 30px rgba(55,43,125,.1);
 }
@@ -293,6 +252,7 @@
     padding: 20px 3%;
     display: flex;
     flex-direction: column;
+    width: 100%;
 }
 
 .marakez-titles{
@@ -339,8 +299,6 @@
 
 .savabegh-desc{
     display: flex;
-    /*justify-content: center;*/
-    /*align-items: start;*/
     padding: 0px 0px 0 0;
     margin-right: 6%;
 }
@@ -375,8 +333,6 @@
 }
 .talifat-desc{
     display: flex;
-    /*justify-content: center;*/
-    /*align-items: start;*/
     padding: 0px 0px 0 0;
     margin: 16px 6% 16px 0;
 }
@@ -392,8 +348,6 @@
 
 .doreha-desc{
     display: flex;
-    /*justify-content: center;*/
-    /*align-items: start;*/
     padding: 0px 0px 0 0;
     margin: 10px 6% 10px 0;
 }
@@ -405,7 +359,6 @@
 
 #dots-container{
     display: flex;
-    /*margin: 50px;*/
     padding-right: 6%;
     width: 100%;
 }
@@ -417,7 +370,7 @@
     margin-top: 5px;
 }
 
-#myBtn{
+.myBtn{
     width: 30%;
     background-color: #FF6A4E;
     border-radius: 20px;
@@ -427,29 +380,9 @@
     cursor: pointer;
     font-size: 1.4rem;
     box-shadow: 0px 10px 30px rgba(0,0,0,.5);
+    color: black;
 }
 @media (min-width: 700px) {
-
-    /*.navbar-container{*/
-    /*    display: inline;*/
-    /*    overflow: hidden;*/
-    /*    margin: 20px 16px 200px 0;*/
-    /*    background-color: #7B66EF;*/
-    /*}*/
-
-    .navbar-btn{
-        color: black;
-        font-size: 1.4rem;
-        text-decoration: none;
-    }
-
-    /*.navbar-btn:hover{*/
-    /*    color: #9374E4;*/
-    /*}*/
-
-    /*.navbar-btn:active{*/
-    /*    color: #9374E4;*/
-    /*}*/
 
     .inner-profile-desc-container{
         height: 200px;
@@ -459,38 +392,23 @@
     }
     .avatar_container{
         width: 40%;
-        /*background-color: orange;*/
     }
 
     .aboutme-content{
         line-height: 30px;
         padding: 0px 50px 20px 50px;
     }
-    #myBtn{
+    .myBtn{
         width: 20%;
         height: 50px;
     }
 }
 @media (min-width: 1024px){
+
     *{
         direction: rtl;
     }
-    .navbar-btn {
-        float: right;
-        color: black;
-        font-size: 1.4rem;
-        padding: 10px;
-        text-decoration: none;
-        margin: 20px 10px 10px 10px;
-    }
 
-    .navbar-btn:hover {
-        color: #9374E4;
-    }
-
-    .navbar-btn:active {
-        color: #9374E4;
-    }
     .container{
         padding: 24px;
         flex-direction: row;
@@ -535,12 +453,10 @@
     }
     .inner-profile-desc-container:hover{
         width: 74%;
-        /*height: 90%*/
     }
     .profile-desc-icon{
         margin-top: 1%;
     }
-
 
     .video{
         width: 20%;
@@ -566,13 +482,8 @@
         margin: 0px 90px 0px 0px;
     }
 
-    .savabegh-title{
-        /*margin: 20px 0;*/
-    }
-
     .savabegh-content{
         font-size: 1.4rem;
-        /*margin: 0 10px;*/
     }
 
 

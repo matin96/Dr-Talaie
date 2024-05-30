@@ -1,7 +1,7 @@
 function myFunction() {
     var dots = document.getElementById("dots-container");
     var moreText = document.getElementById("more");
-    var btnText = document.getElementById("myBtn");
+    var btnText = document.getElementsByClassName("myBtn");
 
     if (dots.style.display === "none") {
         dots.style.display = "flex";

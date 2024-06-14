@@ -9,9 +9,23 @@
 
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
     <script src="index.js"></script>
+
+
+
 </head>
 
 <body>
+
+
+<div class="w-full flex flex-wrap fixed top-0"  style=" z-index: -1; width: 100%; display: flex; justify-content: space-between; top: 0px; position: fixed">
+    <svg class="hidden xl:flex absolute top-0 right-0 " height="536" width="633" style="display: flex; left: 0">
+        <polygon points="0,0,633,0,633,536" fill="#e6e6e6"></polygon>
+    </svg>
+        <svg class="hidden xl:flex" height="519" width="758" style="display: flex">
+            <polygon class="pol" points="0,455 693,500 273,50 192,0 0,171" fill="#e6e6e6"></polygon>
+        </svg>
+
+</div>
 
 <section class="top-nav">
     <input id="menu-toggle" type="checkbox" />
@@ -27,7 +41,6 @@
         <li style="border: none"><a href="#certificates">دوره ها و گواهی نامه ها</a></li>
     </ul>
 </section>
-
 
     <div class="container">
 
@@ -61,7 +74,6 @@
 
             </div>
 
-
             <div class="profile-desc-container">
                 <div class="inner-profile-desc-container">
                     <img src="images/couple.png" class="ring">
@@ -76,7 +88,6 @@
                     </div>
                 </div>
             </div>
-
 
             <div class="profile-desc-container">
                 <div class="inner-profile-desc-container">
@@ -103,7 +114,7 @@
                 <div class="inner-profile-desc-container">
                     <img src="images/seminar.png" class="ring">
                     <div>
-                        <h4 class="profile-desc-content"> برگزاری سخنرانی ها</h4>
+                        <h4 class="profile-desc-content">سخنرانی</h4>
                     </div>
                 </div>
             </div>
@@ -544,7 +555,7 @@
 
 
                     </div>
-                    <button onclick="myFunction()" class="myBtn">بیشتر</button>
+                    <button onclick="myFunction()" id="myBtn">بیشتر</button>
 
                 </div>
             </div>
